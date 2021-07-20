@@ -4,7 +4,7 @@ import {
     makeTuples
 } from '../object-iteration.js';
 
-const { test, skip } = QUnit;
+const { test } = QUnit;
 
 const pet = { 
     name: 'scooter', 
