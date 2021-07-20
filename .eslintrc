@@ -83,6 +83,7 @@
     "array-bracket-spacing": "error",
     // args ignores unused arguments
     // varsIgnorePattern ignores the unused QUnit test and skip
-    "no-unused-vars": ["error", { "args": "none", "varsIgnorePattern": "skip|test"}]
+    // TEST: tests ci fails for unused 'test' var
+    "no-unused-vars": ["error", { "args": "none", "varsIgnorePattern": "skip"}]
   }
 }
