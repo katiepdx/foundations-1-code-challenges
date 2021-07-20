@@ -51,8 +51,8 @@ export function makeSpanishLanguageArray(arr) {
         const translatedNames = {
             nombre: dog.name,
             tipo: dog.type
-        }
-        translatedArr.push(translatedNames)
-    })
+        };
+        translatedArr.push(translatedNames);
+    });
     return translatedArr;
 }

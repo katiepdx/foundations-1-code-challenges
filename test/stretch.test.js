@@ -5,7 +5,7 @@ import {
     countByCategory,
 } from '../stretch.js';
 
-const { test, skip } = QUnit;
+const { skip, test } = QUnit;
 
 const groceries = [
     { 

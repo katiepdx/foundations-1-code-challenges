@@ -7,7 +7,7 @@ import {
     makeArrayOfArraysOfArrays
 } from '../map.js';
 
-const { test, skip } = QUnit;
+const { test } = QUnit;
 
 const pets = [
     { name: 'scooter', type: 'puppy' },

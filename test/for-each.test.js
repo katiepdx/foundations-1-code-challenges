@@ -5,7 +5,7 @@ import {
     makeSpanishLanguageArray,
 } from '../for-each.js';
 
-const { test, skip } = QUnit;
+const { test } = QUnit;
 
 test('should make an array of names', (expect) => {
     const pets = [
